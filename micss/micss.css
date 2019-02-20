@@ -1,0 +1,102 @@
+
+body {
+   
+ 	padding-top: 70px;
+    background-image:url(fondo.jpg);
+    background-color: darkgrey;
+    
+}
+p{
+    color:black;
+    font-family: serifa;
+    font-size: 16px;
+}
+
+
+img{
+    display: block;
+	width:300px;
+	height: 300px;
+}
+
+h1, h4{
+    margin-top: 3.5%;
+    color: black;
+}
+
+button{
+    font-size: 30px;
+    font-family: Ubuntu;
+}
+
+.btn{
+    font-size: 25px;
+    font-family: ubuntu;
+    color: black;
+    text-decoration: underline;
+}
+
+.slide-image {
+   
+ 	width: 100%;
+
+}
+
+#catMenu{
+    font-size: 50px;
+}
+.carousel-holder {
+   
+ 	margin-bottom: 30px;
+
+}
+
+.carousel-control,
+.item {
+   
+	 border-radius: 4px;
+
+}
+
+
+.caption {
+    
+	height: 160px;
+   
+ 	overflow: hidden;
+
+}
+
+
+.caption h4 {
+    
+	white-space: nowrap;
+
+}
+
+
+.ratings {
+    
+	padding-right: 10px;
+    
+	padding-left: 10px;
+    
+	color: #d17581;
+
+}
+
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+
+footer {
+    margin: 50px 0;
+    text-align: center;
+}

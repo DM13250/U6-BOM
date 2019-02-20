@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejemplo W3C adaptado a Bootstrap</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width">
+    <meta name="author" content="Autor">
+    <link rel="icon" type="image/ico" href="imagenes/favicon.ico">
+
+    <!-- Viewport -->
+
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="micss/micss.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-nav fixed-top d-none d-sm-block bg-danger" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <ul class="navbar-nav" id = "menu">
+                    <li>
+                        <a class="navbar-brand active text-white" href="#">Inicio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-3 " id = "container">
+                <div id="listCategories" class="container mx-auto row">
+                </div>        
+                </div>
+    
+    <!-- Footer -->
+    <div class="container" id = "container">
+        <hr>
+                <p id="catMenu" class="h2">Buscar: </p>
+                <button type="button" class = "btn bg-info text-dark rounded collapsed" onclick="showActors()">Actor</button>
+                <button  type="button" class = "btn bg-info text-dark rounded collapsed" onclick="showDirectors()">Director</button> 
+        <div id = "persons" class = "container">
+            
+        </div>
+        <div id = "person" class = "container">
+            
+        </div>
+       <footer class = "container-fluid bg-danger mt-3">
+               <div class="container">
+                   <p class = "text-center text-white h4">Realizado por: Diego Moreno</p>
+               </div>
+       </footer>
+    </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="java/error.js"></script>
+    <script src="java/VideoSystem.js"></script>
+    <script src="java/objetos.js"></script> 
+    <script src="java/populate.js"></script>
+</body>
+</html>
